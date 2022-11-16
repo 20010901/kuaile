@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normlize.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/12.css" media="screen" />
+  </head>
+  <body>
+    <div
+      style="
+        position: relative;
+        display: block;
+        height: 1334px;
+        width: 750px;
+        background-image: url(./image/beijing.jpeg);
+        background-repeat: no-repeat;
+      "
+    >
+      <!-- 打开弹窗按钮 -->
+
+      <button id="myBtn">先点这！嘿嘿</button>
+     <a href="./two.html"><input id="myBtn1" value="再点这！嘿嘿" style="text-align: center;"></input>
+     </a>
+      <!-- 弹窗 -->
+      <div id="myModal" class="modal">
+        <!-- 弹窗内容 -->
+
+        <div class="modal-content">
+          <span class="close">&times;</span>
+
+          <p class="p" style="padding: 48px">
+            羽衣常带烟霞色<br />
+            不惹人间桃李花
+            <img
+              src="./image/biao.webp"
+              alt=""
+              style="position: relative; height: 230px; left: 38px"
+            />
+          </p>
+        </div>
+      </div>
+      <div>
+        <video class="shipin" controls autoplay="autoplay">
+          <source src="./image/shipin.mp4" type="video/mp4" />
+          <source src="./image/shipin.mp4" type="video/ogg" />
+          <source src="./image/shipin.mp4" type="video/webm" />
+        </video>
+      </div>
+    </div>
+
+    <!-- 蛋糕 -->
+
+    <script src="./js/flexible.js"></script>
+    <script src="./js/start.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/theme_common.js"></script>
+    <script src="./js/typed.min.js"></script>
+  </body>
+</html>
