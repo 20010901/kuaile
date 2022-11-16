@@ -1,0 +1,215 @@
+body {
+  min-width: none;
+  max-width: 750px;
+  margin: 0 auto;
+  height: 1334px;
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 500px;
+  }
+}
+.yi{
+    width: 580px;
+    height: 800px;
+    position: absolute;
+    top: 380px;
+    left: 90px;
+}
+.yii{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 40px;
+  color: #FFF5EE;
+  font-size: 52px;
+  text-align: center;
+}
+.yii h1{
+  position: relative;
+  right: -23px;
+  text-shadow: rgb(245,245,245);
+}
+.award{
+  font-size: 20px;
+  width: 470px;
+  height: 150px;
+  text-align: center;
+  border-color: aqua;
+  background-color: rgb(243, 244, 242);
+ 
+}
+.btn{
+    display: none;
+    margin: 60px;
+    font-size: 30px;
+    width: 478px;
+    height: 150px;
+    text-align: center;
+    border-color: aqua;
+    background-color: rgb(243, 244, 242);
+    
+}
+
+
+
+/* 弹窗 (background) */
+.modal {
+  display: none;
+  /* 默认隐藏 */
+  position: fixed
+  top: 700px;
+  right: -250px;
+  /* 固定定位 */
+ z-index: 1;
+  /* 设置在顶层 */
+  left: 0;
+  top: 0;
+  width: 600px;
+  height:300px;
+  overflow: :visible;
+}
+
+/* 弹窗内容 */
+.modal-content {
+  background-color: #fefefe;
+  position: relative;
+  top: 360px;
+  right: -15px;
+  
+  border: 1px solid #888;
+  width: 120%;
+  height: 373px;
+  z-index: 1;
+}
+
+/* 关闭按钮 */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myBtn{
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 150px;
+  height: 70px;
+  position: relative;
+  top: 970px;
+  right: -300px
+}
+
+#myBtn1 {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 142px;
+  height: 70px;
+  position: relative;
+  top: 1090px;
+  right: -147px
+}
+
+.shipin {
+  width: 420px;
+  position: relative;
+  top: 200px;
+  left: 160px;
+  position: relative;
+  top: 100px;
+}
+
+.p{
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: #3bb2ff3b
+  
+
+}
+
+.div_btn{
+    position: relative;
+    top: -990px;
+    left: 260px;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 1em;
+    line-height: 40px;
+    text-align: center;
+    z-index: 999;
+}
+
+.er{
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 70px;
+  font-style: italic;
+}
+
+
+.anniu{
+       width: 80px;
+
+}
+
+    /* 旋转 */
+ @-webkit-keyframes music_play_rotate {
+   0% {
+     -webkit-transform: rotate(0deg);
+   }
+
+   100% {
+     -webkit-transform: rotate(360deg);
+   }
+ }
+
+
+
+ @-webkit-keyframes btn_rotate {
+
+   /*å¸®åŠ©æŒ‰é’®çš„åŠ¨ç”»*/
+   0% {
+     -webkit-transform: rotate(0deg);
+   }
+
+   40% {
+     -webkit-transform: rotate(0deg);
+   }
+
+   50% {
+     -webkit-transform: rotate(30deg);
+   }
+
+   60% {
+     -webkit-transform: rotate(0deg);
+   }
+
+   70% {
+     -webkit-transform: rotate(30deg);
+   }
+
+   80% {
+     -webkit-transform: rotate(0deg);
+   }
+
+   100% {
+     -webkit-transform: rotate(0deg);
+   }
+ }
+
+
+
+
+

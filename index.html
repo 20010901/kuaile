@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normlize.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div
+      style="
+        position: relative;
+        display: block;
+        height: 1334px;
+        width: 750px;
+        background-image: url(./image/beijing.jpeg);
+        background-repeat: no-repeat;
+      "
+    >
+      <div class="yi">
+        <div class="yii">
+          <h1>生日快乐</h1>
+          <p class="er">
+            又长大一岁啦，祝你开心快乐每一天，运气爆表，活出自己想要的样子
+          </p>
+          <a href="one.html" target="_self"
+            ><input
+              class="btn"
+              type="button"
+              value="点这里打开惊喜"
+              onclick="show_dbcake()"
+              style="display: inline-block"
+          /></a>
+
+          <div class="div_btn" id="div_music" onclick="music_switch()">
+            <!-- 音乐按钮部分 -->
+            <img
+              class="anniu"
+              src="./image/music_note_big.png"
+              style="-webkit-animation: music_play_rotate 1s linear infinite"
+            />
+            <audio
+              id="audio_music"
+              autoplay="autoplay"
+              loop="loop"
+              src="./audio/123.mp3"
+            >
+              <source type="audio/mpeg" />
+              <!-- 您的浏览器不支持播放音乐 -->
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/flexible.js"></script>
+    <script src="./js/start.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/theme_common.js"></script>
+    <script src="./js/typed.min.js"></script>
+    <script></script>
+  </body>
+</html>
